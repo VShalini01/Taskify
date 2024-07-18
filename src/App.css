@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.task-input {
+  width: 70%; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: seagreen;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit-button:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.task-list {
+  margin-top: 20px;
+  padding: 30px;
+  align-items: left;
+  margin-left: 75px;
+}
+
+.task-item {
+  width: 70%;
+  margin-right: 50px;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+.task-text {
+  flex: 1;
+  align-items: left;
+  color: black;
+}
+
+.task-buttons {
+  display: flex;
+}
+
+.done-button,
+.delete-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.done-button:hover{
+  background-color: #ccc;
+  color: black;
+}
+.delete-button:hover{
+  background-color: #ccc;
+  color: black;
+}
